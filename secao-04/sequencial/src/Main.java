@@ -57,6 +57,31 @@ public class Main {
 		
 		System.out.println(a);
 		System.out.println(b);
+		
+		double x1 = 3.0;
+		double y1 = 4.0;
+		double z1 = -5.0;
+		double A, B, C;
+		
+		A = Math.sqrt(x1);
+		B = Math.sqrt(y1);
+		C = Math.sqrt(25.0);
+		
+		System.out.println("Raiz quadrada de " + x1 + " = " + A);
+		System.out.println("Raiz quadrada de " + y1 + " = " + B);
+		System.out.println("Raiz quadrada de 25 =" + C);
+		
+		A = Math.pow(x1, y1);
+		B = Math.pow(x1,  2.0);
+		C = Math.pow(5.0, 2.0);
+		System.out.println(x1 + " elevado a " + y1 + " = " + A);
+		System.out.println(x1 + " elevado ao quadrado = " + B);
+		System.out.println("5 elevado ao quadrado = " + C);
+		
+		A = Math.abs(y1);
+		B = Math.abs(z1);
+		System.out.println("Valor absoluto de " + y1 + " = " + A);
+		System.out.println("Valor absoluto de " + z1 + " = " + B);
 	}
 
 }

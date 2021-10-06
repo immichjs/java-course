@@ -31,6 +31,7 @@ public class Main {
 		
 		String s1, s2, s3;
 		
+		sc.nextLine();
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
